@@ -1,0 +1,24 @@
+{
+    "name": "rum",
+    "version": "1.0.1",
+    "author": "LinkedIn",
+    "maintainers": "James Tracy <jtracy@linkedin.com>",
+    "licenses": [
+        {
+            "type": "Apache License, Version 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "description": "Client side polyfills.",
+    "repository": {
+        "type" : "git",
+        "url" : "git@gitli.corp.linkedin.com:polyfill/polyfill.git"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-uglify": "0.8.1",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-contrib-copy": "~0.5.0",
+        "grunt-contrib-concat": "~0.4.0"
+    }
+}
